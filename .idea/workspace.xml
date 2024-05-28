@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WarGameCard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/Card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/CardGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/DeckOfCards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/MainProgram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/Player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/__init__.py" afterDir="false" />
+    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="Base files for project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/DeckOfCards.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Card.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -65,6 +57,30 @@
       <option name="presentableId" value="Default" />
       <updated>1716895964916</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="Base files for project">
+      <option name="closed" value="true" />
+      <created>1716898064833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1716898064833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Base files for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base files for project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/game_cards/Card.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
