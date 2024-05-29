@@ -12,7 +12,6 @@
 # newdeck=DeckOfCards()
 # print(newdeck)
 
-
 from Card import Card
 import random
 class DeckOfCards:
@@ -25,10 +24,8 @@ class DeckOfCards:
             for value in range(1, 14):
                 card = Card(value, suit)
                 self.full_deck.append(card)
-        # self.cards_shuffle()
 
-    # def __str__(self):
-    #     self.cards_shuffle()
+
 
     def cards_shuffle(self):
         '''Method that making shuffle for Cards'''
@@ -37,20 +34,13 @@ class DeckOfCards:
     def deal_one(self):
         '''Method that picks one, removes it from that deck
         and returning it.'''
-        return f'{self.full_deck.pop(-1)}'
+        if len(self.full_deck)>0:
+            return self.full_deck.pop(-1)
+        else:
+            return None
+    def __str__(self):
+        return f'{self.full_deck}'
 
-
-if __name__== '__main__':
-    """This print shows the full deck of cards in order."""
-    deck = DeckOfCards()
-    print(deck.full_deck)
-    """This print shows the full deck of cards in shuffle."""
-    deck.cards_shuffle()
-    print(deck.full_deck)
-    for i in range(51):
-        print(deck.deal_one())
-    print(deck.full_deck)
-
-
-
+    def __repr__(self):
+        return f'{self.full_deck}'
 

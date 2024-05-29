@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="cards class finshed">
+    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="last changes 29/05 11:15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/CardGame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/DeckOfCards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/MainProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/MainProgram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +58,14 @@
     "Python.Card.executor": "Run",
     "Python.Cards_2_2.executor": "Run",
     "Python.DeckOfCards.executor": "Run",
+    "Python.MainProgram.executor": "Run",
+    "Python.Player.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "empty",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.DeckOfCards">
+  <component name="RunManager" selected="Python.MainProgram">
     <configuration name="Cards_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WarGameCard" />
       <option name="ENV_FILES" value="" />
@@ -105,8 +110,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WarGameCard" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_cards/MainProgram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WarGameCard" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_cards/Player.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MainProgram" />
+        <item itemvalue="Python.Player" />
         <item itemvalue="Python.DeckOfCards" />
         <item itemvalue="Python.Cards_2_2" />
       </list>
@@ -160,12 +211,21 @@
       <option name="project" value="LOCAL‎" />
       <updated>1716969018710</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="last changes 29/05 11:15">
+      <option name="closed" value="true" />
+      <created>1716970416292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1716970416292</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base files for project" />
     <MESSAGE value="cards class finshed" />
-    <option name="LAST_COMMIT_MESSAGE" value="cards class finshed" />
+    <MESSAGE value="last changes 29/05 11:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes 29/05 11:15" />
   </component>
 </project>
