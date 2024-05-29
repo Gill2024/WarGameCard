@@ -16,7 +16,8 @@
 from Card import Card
 import random
 class DeckOfCards:
-    """Method of the Deck of Cards that shows 4 suits and 13 values for each Card."""
+    """Method of the Deck of Cards that shows
+    4 suits and 13 values for each Card."""
     def __init__(self):
         self.full_deck = []
         for suit in range(1, 5):
@@ -34,7 +35,8 @@ class DeckOfCards:
         random.shuffle(self.full_deck)
 
     def deal_one(self):
-        '''Method that picks one, removes it from that deck and returning it.'''
+        '''Method that picks one, removes it from that deck
+        and returning it.'''
         return f'{self.full_deck.pop(-1)}'
 
 
@@ -45,7 +47,9 @@ if __name__== '__main__':
     """This print shows the full deck of cards in shuffle."""
     deck.cards_shuffle()
     print(deck.full_deck)
-    print(deck.deal_one())
+    for i in range(51):
+        print(deck.deal_one())
+    print(deck.full_deck)
 
 
 

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="cards class finshed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_cards/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/DeckOfCards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Gill2024"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Gill2024/WarGameCard.git",
+    "accountId": "716fd8b4-244c-47db-b331-97ff6555062e"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -140,7 +152,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1716904731423</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="cards class finshed">
+      <option name="closed" value="true" />
+      <created>1716969018710</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1716969018710</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
