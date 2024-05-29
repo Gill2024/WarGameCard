@@ -5,3 +5,5 @@ from CardGame import CardGame
 
 ###ALONNNNNN%%%
 
+# מה קורה אלון, ברוך הבא!
+

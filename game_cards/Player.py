@@ -1,6 +1,7 @@
 from DeckOfCards import DeckOfCards
 from Card import Card
 
+
 class Player:
     def __init__(self,player_name,num_of_cards):
         self.player_name = player_name
