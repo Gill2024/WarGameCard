@@ -40,15 +40,17 @@ class Card:
 
 
 # 1 clubs (♣),2 diamonds (♦),3 hearts (♥) 4 spades (♠)
-card1=Card(2,1)
-card2=Card(5,2)
-card3=Card(1,1)
-card4=Card(1,2)
-card5=Card(10,2)
-
-print(f'1:[{card1}] 2:[{card2}] 3:[{card3}] 4:[{card4}] 5:[{card5}]')
-print(card3.__gt__(card5))
-print(card3.__gt__(card1))
-print(card5.__eq__(card5))
-print(card3.__gt__(card1))
-
+#
+# if __name__ == "__main__":
+#     card1=Card(2,1)
+#     card2=Card(5,2)
+#     card3=Card(1,1)
+#     card4=Card(1,2)
+#     card5=Card(10,2)
+#
+#     print(f'1:[{card1}] 2:[{card2}] 3:[{card3}] 4:[{card4}] 5:[{card5}]')
+#     print(card3.__gt__(card5))
+#     print(card3.__gt__(card1))
+#     print(card5.__eq__(card5))
+#     print(card3.__gt__(card1))
+#
