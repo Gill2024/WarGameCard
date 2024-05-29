@@ -1,7 +1,10 @@
 class Card:
 
     def __init__(self,value,suit):
-
+        """Initialize a card with a value and a suit.
+        Parameters:
+        value (int): The value of the card (1-13, Ace-King)
+        suit (int): The suit of the card (1 clubs (♣),2 diamonds (♦),3 hearts(♥) 4 spades(♠))."""
         self.suit = suit
         self.suits_dict = {1: '♦', 2: '♠', 3: '♥', 4: '♣'} #1 clubs (♣),2 diamonds (♦),3 hearts(♥) 4 spades(♠)
 
@@ -11,13 +14,15 @@ class Card:
 
 
     def __str__(self):
+        """Return a string representation of the card."""
         return f'[{self.values_dict[self.value]} {self.suits_dict[self.suit]}]'
 
     def __repr__(self):
+        """Return a string representation of the card."""
         return f'{self.values_dict[self.value]}{self.suits_dict[self.suit]}'
 
     def __gt__(self, other):
-        '''Method that decides who's card have grater value '''
+        """Method that compares card to another card to determine if it is of greater value. """
         if self.value == other.value:
             return self.suit > other.suit
         elif self.value == 1:
@@ -29,6 +34,7 @@ class Card:
 
 
     def __eq__(self, other):
+        """Method that compares card to another card to determine if they are equal."""
         if self.value == other.value:
             if self.suit == other.suit:
                 return True
