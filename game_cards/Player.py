@@ -11,11 +11,14 @@ class Player:
                             Must be between 10 and 26 inclusive.
                             Defaults to 26 if out of range."""
         self.player_name = player_name
+        self.player_deck = []
+
+        if type(num_of_cards)!= int:
+            raise TypeError("Only int type values allowed")
         if 10 <= num_of_cards <= 26:
             self.num_of_cards = num_of_cards
         else:
             self.num_of_cards = 26
-        self.player_deck = []
 
     def __str__(self):
         """Return a string representation of the player's name and deck."""

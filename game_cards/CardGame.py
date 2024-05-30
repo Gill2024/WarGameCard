@@ -6,6 +6,8 @@ from Player import Player
 class CardGame:
     def __init__(self, name_player1, name_player2, num_of_cards_per_player):
         """Initialize the card game with two players, number of cards to each player and a deck of cards."""
+        if type(num_of_cards_per_player) != int:
+            raise TypeError("Only int type values allowed")
         if 10 <= num_of_cards_per_player <= 26:
             self.num_of_cards_per_player = num_of_cards_per_player
         else:

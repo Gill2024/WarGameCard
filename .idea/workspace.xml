@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="Finale program with docstrings and notes">
-      <change afterPath="$PROJECT_DIR$/game_cards/test_Card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/test_CardGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/test_DeckOfCards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_cards/test_Player.py" afterDir="false" />
+    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="Changes to Card symbols and welcome message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/CardGame.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/MainProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/MainProgram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/test_Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/test_Card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/test_CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/test_CardGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/test_DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/test_DeckOfCards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_cards/test_Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/test_Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,113 +56,147 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Card.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Cards_2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DeckOfCards.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Player.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;empty&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_Card.TestCard.executor": "Run",
+    "Python tests.Python tests for test_Card.TestCard.test_gt.executor": "Run",
+    "Python tests.Python tests for test_Card.TestCard.test_init_invalid_suit.executor": "Run",
+    "Python tests.Python tests for test_Card.TestCard.test_init_invalid_value.executor": "Run",
+    "Python tests.Python tests for test_Card.TestCard.test_init_valid_suitdict.executor": "Run",
+    "Python tests.Python tests for test_Card.TestCard.test_init_valid_valuedict.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_get_winner_draw.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_get_winner_player1.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_get_winner_player2.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_invalid_num_of_cards_over_range_both_players_fix_26.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_invalid_num_of_cards_under_both_players_fix_26.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_invalid_num_of_cards_under_range.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_invalid_num_of_cards_under_range_both_players_fix_26.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_invalid_type_num_of_cards.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_new_game.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_new_game_after_shuffle_cards_in_deeck.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_num_of_cards_type_Player.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_num_of_cards_type_int.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_player1_name_str.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_player2_name_str.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_same_num_of_cards_to_both_players.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_init_valid_num_of_cards.executor": "Run",
+    "Python tests.Python tests for test_CardGame.TestCardGame.test_new_game_invalid_call.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_cards_shuffle.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_cards_shuffle_different_order.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_deal_one_deck_eq_0.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_deal_one_deck_eq_51.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_init.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_init_full_deck_52unique_cards.executor": "Run",
+    "Python tests.Python tests for test_DeckOfCards.TestDeckOfCards.test_init_full_deck_eq_52_cards.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_add_card_card_added.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_add_card_existing_card.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_add_card_new_card.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_get_card.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_get_card_deck_empty.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_get_card_eq_card_removed.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_get_card_removed_from_player_hand.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_init_invalid_num_of_cards.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_init_invalid_type_num_of_cards.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_init_num_of_cards_valid.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_init_player_name_str.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_init_player_name_str_special_characters.executor": "Run",
+    "Python tests.Python tests for test_Player.TestPlayer.test_set_hand.executor": "Run",
+    "Python.Card.executor": "Run",
+    "Python.Cards_2_2.executor": "Run",
+    "Python.DeckOfCards.executor": "Run",
+    "Python.MainProgram.executor": "Run",
+    "Python.Player.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "empty",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Python.MainProgram">
-    <configuration name="Cards_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_CardGame.TestCardGame">
+    <configuration name="Python tests for test_CardGame.TestCardGame" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WarGameCard" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_cards/Cards_2_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_CardGame.TestCardGame&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="DeckOfCards" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_CardGame.TestCardGame.test_get_winner_draw" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WarGameCard" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_cards/DeckOfCards.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_CardGame.TestCardGame.test_get_winner_draw&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="MainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Card.TestCard" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WarGameCard" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_cards/MainProgram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Card.TestCard&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_DeckOfCards.TestDeckOfCards" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WarGameCard" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_cards/Player.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_DeckOfCards.TestDeckOfCards&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Player.TestPlayer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WarGameCard" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game_cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Player.TestPlayer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainProgram" />
-        <item itemvalue="Python.Player" />
-        <item itemvalue="Python.DeckOfCards" />
-        <item itemvalue="Python.Cards_2_2" />
+        <item itemvalue="Python tests.Python tests for test_CardGame.TestCardGame" />
+        <item itemvalue="Python tests.Python tests for test_Player.TestPlayer" />
+        <item itemvalue="Python tests.Python tests for test_DeckOfCards.TestDeckOfCards" />
+        <item itemvalue="Python tests.Python tests for test_Card.TestCard" />
+        <item itemvalue="Python tests.Python tests for test_CardGame.TestCardGame.test_get_winner_draw" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +280,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1717001030400</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="Changes to Card symbols and welcome message">
+      <option name="closed" value="true" />
+      <created>1717054406168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1717054406169</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +309,7 @@
     <MESSAGE value="last changes 29/05 16:41" />
     <MESSAGE value="message to alon" />
     <MESSAGE value="Finale program with docstrings and notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finale program with docstrings and notes" />
+    <MESSAGE value="Changes to Card symbols and welcome message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to Card symbols and welcome message" />
   </component>
 </project>
