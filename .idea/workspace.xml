@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="message to alon">
+    <list default="true" id="3f92edf7-1a96-4662-b27a-0980bae49750" name="Changes" comment="Finale program with docstrings and notes">
+      <change afterPath="$PROJECT_DIR$/game_cards/test_Card.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_cards/test_CardGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_cards/test_DeckOfCards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_cards/test_Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_cards/CardGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/CardGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_cards/DeckOfCards.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/DeckOfCards.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_cards/MainProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/MainProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_cards/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_cards/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,39 +33,39 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Gill2024"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gill2024&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Gill2024/WarGameCard.git",
-    "accountId": "716fd8b4-244c-47db-b331-97ff6555062e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gill2024/WarGameCard.git&quot;,
+    &quot;accountId&quot;: &quot;716fd8b4-244c-47db-b331-97ff6555062e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2h5trSywqi2tVMnZczLahrhF4fI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Card.executor": "Run",
-    "Python.Cards_2_2.executor": "Run",
-    "Python.DeckOfCards.executor": "Run",
-    "Python.MainProgram.executor": "Run",
-    "Python.Player.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "empty",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Card.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Cards_2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DeckOfCards.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Player.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;empty&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.MainProgram">
     <configuration name="Cards_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WarGameCard" />
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1716991579020</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="Finale program with docstrings and notes">
+      <option name="closed" value="true" />
+      <created>1717001030400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1717001030400</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +264,7 @@
     <MESSAGE value="last changes 29/05 11:15" />
     <MESSAGE value="last changes 29/05 16:41" />
     <MESSAGE value="message to alon" />
-    <option name="LAST_COMMIT_MESSAGE" value="message to alon" />
+    <MESSAGE value="Finale program with docstrings and notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finale program with docstrings and notes" />
   </component>
 </project>

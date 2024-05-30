@@ -1,10 +1,7 @@
-# from Card import Card
-# from DeckOfCards import DeckOfCards
-# from Player import Player
 from CardGame import CardGame
 # Display welcome message and instructions for the game.
 welcome_message = input("🃏🎉 Welcome to the Ultimate War Of Cards! 🎉🃏\n"
-                        "--------------------------------------------\n"
+                        "--------------------♠️♦️♣️♥️--------------------\n"
                         "Get ready for an exciting battle of wits and luck!\n"
                         "Here's how to play:\n"
                         "1. Each player will receive a deck of cards.\n"
