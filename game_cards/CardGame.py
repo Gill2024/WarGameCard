@@ -21,8 +21,8 @@ class CardGame:
 
     def __str__(self):
         """Return a string representation of the game state."""
-        return (f'Player 1: {self.player1} {self.player1.player_deck}\n'
-                f'Player 2: {self.player2} {self.player2.player_deck}')
+        return (f'Player 1: {self.player1} \n'
+                f'Player 2: {self.player2} ')
 
     def __repr__(self):
         """Return a string representation of the game state."""
