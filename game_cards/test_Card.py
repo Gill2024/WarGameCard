@@ -23,6 +23,7 @@ class TestCard(TestCase):
         """Test the initialization of the value dictionary."""
         self.assertEqual(self.card_op4.values_dict[11],'J')
 
+
     def test_init_valid_suit_dict(self):
         """Test the initialization of the suit dictionary."""
         self.assertEqual(self.card_op3.suits_dict[2],'♠️')
@@ -68,14 +69,8 @@ class TestCard(TestCase):
 
     def test_eq_False(self):
         """Test the equality comparison for cards that are different."""
-        self.assertFalse(self.card_op3==self.card_op4)          #[J♥️]==[J♥️]
+        self.assertFalse(self.card_op3==self.card_op4)          #[5♠️]==[J♥️]
 
     def tearDown(self):
         """Tear down the test case environment."""
         print('Test ended.')
-
-
-# self.card_low = Card(2, 1)  # [2♦️]
-# self.card_big = Card(1, 4)  # [A♣️]
-# self.card_op3 = Card(5, 2)  # [5♠️]
-# self.card_op4 = Card(11, 3)  # [J♥️]

@@ -44,6 +44,17 @@ class TestPlayer(TestCase):
         test_player3 = Player('!?@Liel501.#', 26)
         self.assertEqual(type(test_player3.player_name), str)
 
+    def test_init_player_name_is_empty_str(self):
+        """Test if Player`s name is an empty string"""
+        with self.assertRaises(ValueError):
+            Player("",10)
+
+    def test_init_player_name_is_spaces(self):
+        """Test if Player`s name is only spaces"""
+        with self.assertRaises(ValueError):
+            Player("   ",18)
+            Player("  ",18)
+            Player(" ",18)
 
     @mock.patch('DeckOfCards.DeckOfCards.deal_one', return_value=Card(13,3))
     def test_set_hand(self, mock_deal_one):

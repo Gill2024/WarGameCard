@@ -13,6 +13,9 @@ class Player:
         self.player_name = player_name
         self.player_deck = []
 
+        if self.player_name=="" or self.player_name.isspace():
+            raise ValueError("Player`s name is empty or contains only spaces.")
+
         if type(num_of_cards)!= int:
             raise TypeError("Only int type values allowed")
         if 10 <= num_of_cards <= 26:
